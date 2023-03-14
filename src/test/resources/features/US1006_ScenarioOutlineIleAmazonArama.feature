@@ -6,7 +6,8 @@ Feature: US1006 Kullanici Scenario outline ile birden fazla kelime aratir.
     Given kullanici "amazonUrl" anasayfaya gider
     Then amazonda "<Kelimeler>" icin arama yapar
     And sonuclarin "<Kelimeler>" icerdigini test eder
-    And sayfayi kapatir
+
+
     Examples:
     |Kelimeler |
     |Nutella   |
